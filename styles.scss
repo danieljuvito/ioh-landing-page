@@ -751,12 +751,14 @@ footer {
                 background: white;
                 border-radius: 16px !important;
                 border-style: solid !important;
+                border-width: 1px;
+                border-color: rgba(0, 0, 0, 0.1);
                 box-shadow: 1px 8px 14px rgba(0, 0, 0, 0.06);
 
                 > div:nth-child(1) {
                     background: unset !important;
                     border-radius: 0 !important;
-                    border-style: none !important;
+                    border-style: unset !important;
                     box-shadow: 0 0 0 0 !important;
                     width: 100%;
 
@@ -812,6 +814,7 @@ footer {
                     padding-top: 0 !important;
                     padding-left: 15px !important;
                     padding-right: 15px !important;
+                    border-style: none !important;
 
                     p {
                         display: none;
