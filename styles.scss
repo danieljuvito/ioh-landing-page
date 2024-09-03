@@ -668,6 +668,7 @@ footer {
             display: block;
             width: 54px;
             height: 54px;
+            cursor: pointer;
         }
 
         nav {
@@ -751,7 +752,7 @@ footer {
             border-style: none !important;
             box-shadow: 0 0 0 0 !important;
             padding: 30px 15px 30px;
-            background: linear-gradient(to bottom right, rgba(255, 0, 0, 0.2), white, white, white, rgba(255, 255, 0, 0.2)) !important;
+            background: linear-gradient(to bottom right, rgba(255, 0, 0, 0.2), #FAFAFA, #FAFAFA, #FAFAFA, rgba(255, 255, 0, 0.2)) !important;
 
             div {
                 background: white;
