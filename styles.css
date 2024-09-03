@@ -59,7 +59,8 @@ body {
   background: #FAFAFA; }
 
 button {
-  color: inherit; }
+  color: inherit;
+  cursor: pointer; }
 
 header {
   display: flex;
