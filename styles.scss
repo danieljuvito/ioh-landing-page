@@ -615,7 +615,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #FFFFFF;
     padding-left: 10%;
     padding-right: 10%;
     //    font-family: Arial;
@@ -637,7 +636,7 @@ footer {
     //    width: 357px;
     //    height: 19px;
 
-    font-family: 'Noto Sans', Arial;
+    font-family: 'Noto Sans', Arial, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -667,6 +666,8 @@ footer {
 
         #menu-bar {
             display: block;
+            width: 54px;
+            height: 54px;
         }
 
         nav {
@@ -900,6 +901,11 @@ footer {
 
             span {
                 display: none;
+            }
+
+            img {
+                width: 32px;
+                height: 32px;
             }
         }
     }
