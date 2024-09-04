@@ -117,38 +117,24 @@ main {
         display: flex;
 
         h2 {
-            /* Dapatkan Nomor Cantik 11 Digit */
-
             width: 374px;
-            //            height: 210px;
-
-            font-family: 'Ooredoo';
+            font-family: 'ooredoo', serif;
             font-style: normal;
             font-weight: 900;
             font-size: 56px;
             line-height: 70px;
-            /* or 125% */
-
             color: #221E20;
-
         }
 
         button {
-            /* Tombol */
-
-            //                /* Auto layout */
             display: flex;
-            //                flex-direction: row;
             align-items: center;
             padding: 10px 24px;
             gap: 15px;
-
-            //                    width: 241px;
             height: 40px;
             background: #ED1C24;
             border-radius: 32px;
             border-style: none;
-
             margin-top: 30px;
             margin-bottom: 30px;
 
@@ -177,7 +163,7 @@ main {
         align-items: center;
         background: white;
         padding: 10px;
-        box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 8px 14px rgba(0, 0, 0, 0.06);
         border-radius: 16px;
         border-style: solid;
         border-color: rgba(0, 0, 0, 0.06);
@@ -206,7 +192,7 @@ main {
     }
 
     section.esim {
-        box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 8px 14px rgba(0, 0, 0, 0.06);
         border-radius: 16px;
         border-style: solid;
         border-color: rgba(0, 0, 0, 0.06);
@@ -216,7 +202,7 @@ main {
         > div {
             > div:first-child {
                 display: flex;
-                box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.06);
+                box-shadow: 0 8px 14px rgba(0, 0, 0, 0.06);
                 border-radius: 16px;
                 border-style: solid;
                 border-color: rgba(0, 0, 0, 0.06);
@@ -235,18 +221,11 @@ main {
                     padding-bottom: 20px;
 
                     h2 {
-                        /* Tetap terkoneksi dengan eSIM */
-
-                        //                width: 525px;
-                        //                height: 40px;
-
-                        font-family: 'Ooredoo';
+                        font-family: 'Ooredoo', serif;
                         font-style: normal;
                         font-weight: 900;
                         font-size: 36px;
                         line-height: 40px;
-                        /* identical to box height, or 111% */
-
                         color: #121B21;
                         padding-top: 30px;
                         padding-bottom: 30px;
@@ -257,38 +236,28 @@ main {
                     }
 
                     p {
-                        font-family: 'Arial';
+                        font-family: 'Noto Sans', 'Arial', serif;
                         margin-bottom: 30px;
                     }
 
                     ul {
                         display: flex;
-                        //                    height: 100px;
                         gap: 40px;
-
                         padding-top: 20px;
                         padding-bottom: 25px;
 
                         li {
                             display: flex;
                             flex-direction: column;
-                            align-items: bottom;
+                            align-items: flex-end;
 
                             height: 100%;
-                            /* MENU UTAMA */
-
-                            //                        width: 55px;
-                            //                        height: 16px;
-
-                            font-family: 'Noto Sans', Arial;
+                            font-family: 'Noto Sans', Arial, serif;
                             font-style: normal;
                             font-weight: 400;
                             font-size: 12px;
                             line-height: 16px;
-
-                            /* Black Shades/Black 1 */
                             color: #211E20;
-
 
                             img {
                                 width: 32px;
@@ -299,20 +268,13 @@ main {
                     }
 
                     button {
-                        /* Tombol */
-
-                        //                /* Auto layout */
                         display: flex;
-                        //                flex-direction: row;
                         align-items: center;
                         padding: 10px 24px;
                         gap: 15px;
-
-                        //                    width: 241px;
                         height: 40px;
                         background: #ED1C24;
                         border-radius: 32px;
-
                         border-style: none;
 
                         span {
@@ -338,15 +300,11 @@ main {
 
                 p {
                     width: 25%;
-                    /* Layanan eSIM Lainnya */
-
-                    font-family: 'Noto Sans', Arial;
+                    font-family: 'Noto Sans', Arial, serif;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 40px;
-                    /* identical to box height, or 250% */
-
                     color: #121B21;
 
                 }
@@ -357,19 +315,7 @@ main {
                     justify-content: space-between;
                     height: 60px;
                     width: 100%;
-                    /* Card  */
-
                     box-sizing: border-box;
-
-                    //                /* Auto layout */
-                    //                display: flex;
-                    //                flex-direction: row;
-                    //                align-items: center;
-                    //                padding: 12px;
-                    //                gap: 16px;
-                    //
-                    //                width: 270.67px;
-                    //                height: 60px;
 
                     button {
                         display: flex;
@@ -378,7 +324,6 @@ main {
                         background: #FFFFFF;
                         border: 1px solid #D6D5D6;
                         border-radius: 16px;
-                        //                    height: 60px;
                         width: 30%;
                         padding: 10px;
 
@@ -402,21 +347,14 @@ main {
         text-align: center;
 
         h2 {
-            /* Sudah pesan Kartu SIM? */
-
             width: 100%;
             height: 40px;
-
-            /* Head - OH/4xl - O */
-            font-family: 'Ooredoo';
+            font-family: 'Ooredoo', serif;
             font-style: normal;
             font-weight: 900;
             font-size: 36px;
             line-height: 40px;
-            /* identical to box height, or 111% */
-
             color: #000000;
-
             padding-bottom: 50px;
         }
 
@@ -427,33 +365,11 @@ main {
 
             > div {
                 text-align: left;
-
-                /* Frame 20043 */
-
-                //                /* Auto layout */
-                //                display: flex;
-                //                flex-direction: column;
-                //                align-items: flex-start;
-                //                padding: 0px;
-                //                gap: 32px;
-
                 width: 30%;
-                //                height: 172px;
-
-
-                /* Already ordered? find out your order status here */
-
-                //                width: 319px;
-                //                height: 20px;
-
-                /* Paragraph - Noto/Text - xs */
-                font-family: 'Noto Sans', Arial;
+                font-family: 'Noto Sans', Arial, serif;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
-                //                line-height: 20px;
-                /* identical to box height, or 143% */
-
                 color: #403D3E;
 
                 img {
@@ -463,19 +379,10 @@ main {
                 }
 
                 h3 {
-                    /* Track your order */
-
-                    //                width: 159px;
-                    //                    height: 28px;
-
-                    /* Head - OH/xl - O */
-                    font-family: 'ooredoo';
+                    font-family: 'ooredoo', serif;
                     font-style: normal;
                     font-weight: 900;
                     font-size: 20px;
-                    //                    line-height: 28px;
-                    /* identical to box height, or 140% */
-
                     color: #121B21;
                     padding-bottom: 20px;
                 }
@@ -488,21 +395,14 @@ main {
         text-align: center;
 
         h2 {
-            /* Sudah pesan Kartu SIM? */
-
             width: 100%;
             height: 40px;
-
-            /* Head - OH/4xl - O */
-            font-family: 'Ooredoo';
+            font-family: 'Ooredoo', serif;
             font-style: normal;
             font-weight: 900;
             font-size: 36px;
             line-height: 40px;
-            /* identical to box height, or 111% */
-
             color: #000000;
-
             padding-bottom: 50px;
         }
 
@@ -512,113 +412,52 @@ main {
             gap: 20px;
 
             button {
-                /* Tab 2 */
-
-                //            /* Auto layout */
-                //            display: flex;
-                //            flex-direction: row;
-                //            justify-content: center;
-                //            align-items: center;
-                //            padding: 12px 24px;
-                //            gap: 10px;
-
                 width: 108px;
                 height: 44px;
 
                 background: #FFFFFF;
                 border-radius: 8px;
                 border-style: none;
-
-                /* Postpaid */
-
-                //            width: 60px;
-                //            height: 20px;
-
-                /* Head - OH/sm - O */
-                font-family: 'Ooredoo';
+                font-family: 'Ooredoo', serif;
                 font-style: normal;
                 font-weight: 900;
                 font-size: 14px;
                 line-height: 20px;
-                /* identical to box height, or 143% */
                 text-align: center;
-
                 color: #403D3E;
-
             }
 
             button.active {
-                /* Tab 1 */
-
-                //box-sizing: border-box;
-                //
-                ///* Auto layout */
-                //display: flex;
-                //flex-direction: row;
-                //justify-content: center;
-                //align-items: center;
-                //padding: 12px 24px;
-                //gap: 10px;
-
                 width: 108px;
                 height: 44px;
-
                 background: #FFF5F5;
                 border: 1px solid #ED1C24;
                 border-radius: 8px;
-
-                /* Postpaid */
-
-                //            width: 60px;
-                //            height: 20px;
-
-                /* Head - OH/sm - O */
-                font-family: 'Ooredoo';
+                font-family: 'Ooredoo', serif;
                 font-style: normal;
                 font-weight: 900;
                 font-size: 14px;
                 line-height: 20px;
-                /* identical to box height, or 143% */
                 text-align: center;
-
                 color: #ED1C24;
             }
         }
 
         li {
-            /* Question */
-
-            //            box-sizing: border-box;
-
-            /* Auto layout */
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
             padding: 16px 0px;
             gap: 9px;
-
-            //            width: 1106px;
-            height: 56px;
-
             border-bottom: 1px solid #D6D5D6;
-
             text-align: left;
-
-            /* Seperti apa program */
-
-            //            margin: 0 auto;
-            //            width: 300px;
             height: 20px;
-
-            /* Paragraph - Noto/Text - xs */
-            font-family: 'Noto Sans', Arial;
+            font-family: 'Noto Sans', Arial, serif;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 20px;
-            /* identical to box height, or 143% */
-
             color: #403D3E;
         }
 
@@ -635,41 +474,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    //    font-family: Arial;
-    /* Footer */
-
-    /* Auto layout */
-    //    display: flex;
-    //    flex-direction: column;
-    //    justify-content: space-between;
-    //    align-items: center;
-    //    padding: 16px 10px;
-    //    gap: 10px;
-
     background: #F0EFEF;
-
-    /* Indosat Ooredoo © 20 */
-
-    //    margin: 0 auto;
-    //    width: 357px;
-    //    height: 19px;
-
     font-family: 'Noto Sans', Arial, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-
     color: gray;
-
-    //    mix-blend-mode: normal;
-    //    opacity: 0.44;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 10%;
 
     span {
         display: flex;
@@ -722,19 +534,6 @@ footer {
         .hero {
             justify-content: center;
             margin-bottom: 0;
-            /* Mobile Banner Nomor Cantik EN */
-
-            //            /* Auto layout */
-            //            display: flex;
-            //            flex-direction: column;
-            //            align-items: center;
-            //            padding: 40px 16px;
-            //            gap: 16px;
-            //            isolation: isolate;
-            //
-            //            width: 360px;
-            //            height: 387px;
-
             background: linear-gradient(180deg, #FFD500 0%, #FFB64A 100%);
 
             h2 {
@@ -905,8 +704,6 @@ footer {
                             }
                         }
                     }
-
-                    //                display: none !important;
                 }
             }
         }
