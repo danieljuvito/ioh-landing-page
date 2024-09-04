@@ -27,6 +27,15 @@ a {
     text-decoration: none;
 }
 
+html[lang=en] [lang=id] {
+    display: none !important;
+}
+
+html[lang=id] [lang=en] {
+    display: none !important;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -140,14 +149,17 @@ main {
             height: 40px;
             background: #ED1C24;
             border-radius: 32px;
-            font-size: 14px;
-            line-height: 20px;
-            text-align: center;
-            color: #FFFFFF;
             border-style: none;
 
             margin-top: 30px;
             margin-bottom: 30px;
+
+            span {
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+            }
 
             img {
                 width: 32px;
@@ -296,11 +308,15 @@ main {
                         height: 40px;
                         background: #ED1C24;
                         border-radius: 32px;
-                        font-size: 14px;
-                        line-height: 20px;
-                        text-align: center;
-                        color: #FFFFFF;
+
                         border-style: none;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
 
                         img {
                             width: 32px;
@@ -754,7 +770,7 @@ footer {
             padding: 30px 15px 30px;
             background: linear-gradient(to bottom right, rgba(255, 0, 0, 0.2), #FAFAFA, #FAFAFA, #FAFAFA, rgba(255, 255, 0, 0.2)) !important;
 
-            div {
+            > div {
                 background: white;
                 border-radius: 16px !important;
                 border-style: solid !important;
@@ -848,9 +864,12 @@ footer {
                             background: rgba(255, 0, 0, 0.1) !important;
 
                             &:first-child {
-                                color: red;
                                 border-style: solid !important;
                                 border-color: red;
+
+                                span {
+                                    color: red;
+                                }
                             }
 
                             img {

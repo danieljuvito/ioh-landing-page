@@ -17,3 +17,32 @@ if (window.innerWidth <= 1000) {
     const container = document.querySelector('#container-small');
     container.insertBefore(document.querySelector('#order-button'), container.firstChild);
 }
+
+window.onload = function () {
+    const htmlTag = document.querySelector("html")
+    const idLangButton = document.querySelector("#id-button")
+    const enLangButton = document.querySelector("#en-button")
+
+    switch (htmlTag.lang) {
+        case "id":
+            idLangButton.classList.add("active")
+            enLangButton.classList.remove("active")
+            break
+        case "en":
+            idLangButton.classList.remove("active")
+            enLangButton.classList.add("active")
+            break
+    }
+
+    idLangButton.addEventListener("click", () => {
+        htmlTag.lang = "id"
+        idLangButton.classList.add("active")
+        enLangButton.classList.remove("active")
+    })
+
+    enLangButton.addEventListener("click", () => {
+        htmlTag.lang = "en"
+        idLangButton.classList.remove("active")
+        enLangButton.classList.add("active")
+    })
+}
