@@ -175,8 +175,12 @@ main {
       width: 25%; }
       main section.features .feature img {
         margin-right: 10px;
-        width: 64px;
+        min-width: 30px;
+        max-width: 64px;
+        width: calc(30% - 10px);
         height: 100%; }
+      main section.features .feature span {
+        width: 70%; }
   main section.esim {
     box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.06);
     border-radius: 16px;
@@ -448,7 +452,7 @@ footer {
     gap: 20px;
     color: gray; }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   header {
     margin-bottom: 0; }
     header #menu-bar {

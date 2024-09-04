@@ -1,10 +1,11 @@
 function handleBuyButton() {
+    const width = 800
     window.addEventListener('resize', function () {
         const movingElement = document.querySelector('#order-button');
         const containerLarge = document.querySelector('#container-large');
         const containerSmall = document.querySelector('#container-small');
 
-        if (window.innerWidth <= 1000) {
+        if (window.innerWidth <= width) {
             if (movingElement.getAttribute("id") !== containerSmall.children[0].getAttribute("id")) {
                 containerSmall.insertBefore(movingElement, containerSmall.firstChild);
             }
@@ -14,7 +15,7 @@ function handleBuyButton() {
     });
 
     // Initial check
-    if (window.innerWidth <= 1000) {
+    if (window.innerWidth <= width) {
         const container = document.querySelector('#container-small');
         container.insertBefore(document.querySelector('#order-button'), container.firstChild);
     }
