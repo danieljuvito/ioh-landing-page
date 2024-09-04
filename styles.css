@@ -523,6 +523,8 @@ footer {
         main .features .feature img {
           width: 30px !important;
           padding-bottom: 20px; }
+        main .features .feature span {
+          width: 100% !important; }
     main .esim {
       border-radius: 0 !important;
       border-style: none !important;
