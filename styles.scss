@@ -27,14 +27,10 @@ a {
     text-decoration: none;
 }
 
-html[lang=en] [lang=id] {
-    display: none !important;
-}
-
+html[lang=en] [lang=id],
 html[lang=id] [lang=en] {
     display: none !important;
 }
-
 
 header {
     display: flex;
@@ -688,7 +684,27 @@ footer {
         }
 
         nav {
-            display: none;
+            box-sizing: border-box;
+            display: flex;
+            position: fixed;
+            left: -200px;
+            top: 0;
+            width: 200px;
+            background: #111;
+            flex-direction: column;
+            height: 100%;
+            gap: 10px;
+            padding: 30px 20px;
+            transition: 0.5s;
+
+            a {
+                height: 30px;
+                border-bottom-style: solid;
+                border-color: white;
+                border-width: 1px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
         }
     }
 
